@@ -25,7 +25,7 @@ def cargar_pokedex(nombre_archivo="pokemones.csv"):
         return None, None
 
 def guardar_pokedex(nombre_archivo, encabezado, lista_pokemones):
-    # Hacemos lo mismo para guardar, así se genera en la misma carpeta Tarea_1
+
     ruta_carpeta_actual = os.path.dirname(os.path.abspath(__file__))
     ruta_absoluta_csv = os.path.join(ruta_carpeta_actual, nombre_archivo)
     
