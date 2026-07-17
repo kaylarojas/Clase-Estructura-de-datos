@@ -15,7 +15,6 @@ class Validador:
         while True:
             entrada = input(mensaje)
             try:
-                # Divide por comas y convierte a enteros eliminando espacios vacíos
                 lista = [int(x.strip()) for x in entrada.split(",") if x.strip() != ""]
                 if not lista:
                     print("La lista no puede estar vacía.")
